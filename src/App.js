@@ -1,6 +1,6 @@
 import "./App.css";
-import "./index.css";
 import Wave from "./images/wave3.png";
+import "./index.css";
 import { Link } from "react-router-dom";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <header>
         <nav>
-          <h2>Samuel C. Glantz</h2>
+          <h2>Samuel C. Glantzzzz</h2>
           <ul>
             <li>
               <Link to="/">Home</Link>
@@ -27,7 +27,7 @@ function App() {
 
         <div className="wavy">
           <div className="heading">
-            <h1>CRAFTING THE DIGITAL WORLD </h1>
+            <h1>CRAFTING THE DIGITAL WORLD</h1>
             <h3>Web Development and Design</h3>
             <button className="button">Know More!</button>
           </div>
