@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <header>
         <nav>
-          <h2>Samuel C. Glantzzzz</h2>
+          <h2>Samuel C. Glantz</h2>
           <ul>
             <li>
               <Link to="/">Home</Link>
