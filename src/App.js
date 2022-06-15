@@ -27,7 +27,7 @@ function App() {
 
         <div className="wavy">
           <div className="heading">
-            <h1>CRAFTING THE DIGITAL WORLD</h1>
+            <h1>CRAFTING THE DIGITAL WORLD </h1>
             <h3>Web Development and Design</h3>
             <button className="button">Know More!</button>
           </div>
