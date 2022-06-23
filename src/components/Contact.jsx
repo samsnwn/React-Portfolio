@@ -21,6 +21,9 @@ export default function Contact(props) {
     props.onShowMessage(userInputName, userInputSubject);
     
     setShowMessage(true);
+
+    setUserInputName('')
+    setUserInputSubject('')
   };
 
   const nameChangeHandler = (e) => {
