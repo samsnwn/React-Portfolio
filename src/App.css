@@ -393,6 +393,22 @@ header img {
   display: none;
 }
 
+.contact-message {
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.contact-message span {
+  background: linear-gradient(to right, #30CFD0, #c43ad6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.confirm p {
+  font-size: 2.5rem;
+}
+
+
 footer {
   width: 100%;
   height: 55vh;
@@ -619,15 +635,9 @@ h2 {
   color: #000505;
 }
 
-/* .card .back i {
-  color: #a14554;
+.back h1 {
+  font-size: 20px;
 }
-
-.card i {
-  font-size: 3rem;
-  font-weight: 700;
-  color: #240046;
-} */
 
 .card:hover {
   cursor: pointer;
