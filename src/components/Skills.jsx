@@ -1,177 +1,130 @@
-import React from 'react'
+import React from "react";
 import "../App.css";
+import { FiFigma } from "react-icons/fi";
 
 export default function Skills() {
   return (
     <div>
-        <section id="skills">
-          <h2>Skills & Services</h2>
+      <section id="skills">
+        <h2>Skills & Services</h2>
 
-          <div className="cards-container">
-            <div className="card card-design">
-              <div className="front">
-                <i className="far fa-object-group"></i>
-                <h4>UI/UX</h4>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Nihil voluptatibus, deserunt perferendis sunt esse deleniti?
-                </p>
-              </div>
-
-              <div className="back">
-                <div className="figma">
-                  <i className="fab fa-figma"></i>
-                  <p>Figma</p>
-                </div>
-
-                <div className="adobe">
-                  <i className="fas fa-atom"></i>
-                  <p>Adobe</p>
-                </div>
-
-                <div className="ilustrator">
-                  <i className="fas fa-bezier-curve"></i>
-                  <p>Illustrator</p>
-                </div>
-              </div>
-            </div>
-            <div className="card card-code">
-              <div className="front">
-                <i className="fas fa-code"></i>
-                <h4>Front-End Development</h4>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Nihil voluptatibus, deserunt perferendis sunt esse deleniti?
-                </p>
-              </div>
-
-              <div className="back">
-                <div className="sass">
-                  <i className="fab fa-sass"></i>
-                  <p>SASS</p>
-                </div>
-
-                <div className="js">
-                  <i className="fab fa-js-square"></i>
-                  <p>JavaScript</p>
-                </div>
-
-                <div className="react">
-                  <i className="fab fa-react"></i>
-                  <p>React</p>
-                </div>
-              </div>
+        <div className="cards-container">
+          <div className="card card-design bg-blur1">
+            <div className="front">
+              <h1>UI/UX</h1>
             </div>
 
-            <div className="card card-database">
-              <div className="front">
-                <i className="fas fa-database"></i>
-                <h4>Back-End Development</h4>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Nihil voluptatibus, deserunt perferendis sunt esse deleniti?
-                </p>
+            <div className="back">
+              <div className="figma">
+                <h1>Figma</h1>
               </div>
 
-              <div className="back">
-                <div className="node">
-                  <i className="fab fa-node"></i>
-                  <p>NodeJS</p>
-                </div>
-
-                <div className="MySQL">
-                  <i className="fab fa-usps"></i>
-                  <p>SQL</p>
-                </div>
-
-                <div className="MongoDB">
-                  <i className="fab fa-uncharted"></i>
-                  <p>MongoDB</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="card card-cloud">
-              <div className="front">
-                <i className="fab fa-cloudversify"></i>
-                <h4>Cloud Services</h4>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Nihil voluptatibus, deserunt perferendis sunt esse deleniti?
-                </p>
+              <div className="adobe">
+                <h1>Adobe</h1>
               </div>
 
-              <div className="back">
-                <div className="aws">
-                  <i className="fab fa-aws"></i>
-                  <p>AWS</p>
-                </div>
-
-                <div className="azure">
-                  <i className="fas fa-file-signature"></i>
-                  <p>Azure</p>
-                </div>
-
-                <div className="cloud">
-                  <i className="fas fa-cloud-download-alt"></i>
-                  <p>Other</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="card card-deploy">
-              <div className="front">
-                <i className="fas fa-cogs"></i>
-                <h4>Deployment & Maintenance</h4>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Nihil voluptatibus, deserunt perferendis sunt esse deleniti?
-                </p>
-              </div>
-
-              <div className="back">
-                <div>
-                  <i className="fab fa-deploydog"></i>
-                  <p>AnyDesk</p>
-                </div>
-                <div>
-                  <i className="fab fa-ioxhost"></i>
-                  <p>Acronis</p>
-                </div>
-                <div>
-                  <i className="fas fa-fire-alt"></i>
-                  <p>Arcitura</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="card card-systems">
-              <div className="front">
-                <i className="fab fa-ubuntu"></i>
-                <h4>Systems Administration</h4>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Nihil voluptatibus, deserunt perferendis sunt esse deleniti?
-                </p>
-              </div>
-
-              <div className="back">
-                <div>
-                  <i className="fab fa-windows"></i>
-                  <p>Windows</p>
-                </div>
-                <div>
-                  <i className="fab fa-apple"></i>
-                  <p>MacOs</p>
-                </div>
-                <div>
-                  <i className="fab fa-linux"></i>
-                  <p>Linux</p>
-                </div>
+              <div className="ilustrator">
+                <h1>Illustrator</h1>
               </div>
             </div>
           </div>
-        </section>
+          <div className="card card-code  bg-blur2">
+            <div className="front">
+              <h1>Front-End Development</h1>
+            </div>
+
+            <div className="back">
+              <div className="sass">
+                <h1>SASS</h1>
+              </div>
+
+              <div className="js">
+                <h1>JavaScript</h1>
+              </div>
+
+              <div className="react">
+                <h1>React</h1>
+              </div>
+            </div>
+          </div>
+
+          <div className="card card-database  bg-blur3">
+            <div className="front">
+              <h1>Back-End Development</h1>
+            </div>
+
+            <div className="back">
+              <div className="node">
+                <h1>NodeJS</h1>
+              </div>
+
+              <div className="MySQL">
+                <h1>SQL</h1>
+              </div>
+
+              <div className="MongoDB">
+                <h1>MongoDB</h1>
+              </div>
+            </div>
+          </div>
+
+          <div className="card card-cloud  bg-blur4">
+            <div className="front">
+              <h1>Cloud Services</h1>
+            </div>
+
+            <div className="back">
+              <div className="aws">
+                <h1>AWS</h1>
+              </div>
+
+              <div className="azure">
+                <h1>Azure</h1>
+              </div>
+
+              <div className="cloud">
+                <h1>Other</h1>
+              </div>
+            </div>
+          </div>
+
+          <div className="card card-deploy  bg-blur5">
+            <div className="front">
+              <h1>Deployment & Maintenance</h1>
+            </div>
+
+            <div className="back">
+              <div>
+                <h1>AnyDesk</h1>
+              </div>
+              <div>
+                <h1>Acronis</h1>
+              </div>
+              <div>
+                <h1>Arcitura</h1>
+              </div>
+            </div>
+          </div>
+
+          <div className="card card-systems  bg-blur6">
+            <div className="front">
+              <h1>Systems Administration</h1>
+            </div>
+
+            <div className="back">
+              <div>
+                <h1>Windows</h1>
+              </div>
+              <div>
+                <h1>MacOs</h1>
+              </div>
+              <div>
+                <h1>Linux</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
-  )
+  );
 }

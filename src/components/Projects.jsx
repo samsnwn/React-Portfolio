@@ -5,8 +5,8 @@ import "../App.css";
 
 export default function Projects() {
   return (
-    <div>
-      <section id="projects">
+    <div className="bg-blur">
+      <section id="projects" className="bg-blur">
         <div className="wave">
           <img src={Wave} className="one" alt="Wave" />
         </div>
@@ -15,7 +15,7 @@ export default function Projects() {
 
         <div className="project-cards first">
           <div className="text">
-            <h3>Devjobs web app</h3>
+            <h1>Devjobs web app</h1>
             <p>A jobs board that pulls data from a local JSON file.</p>
             <Link
               to="https://www.frontendmentor.io/challenges/art-gallery-website-yVdrZlxyA"
@@ -42,7 +42,7 @@ export default function Projects() {
           </div>
 
           <div className="text">
-            <h3>Audiophile e-commerce website</h3>
+            <h1>Audiophile e-commerce website</h1>
             <p>
               This huge e-commerce website provides an incredible test for
               front-end skills.
@@ -58,7 +58,7 @@ export default function Projects() {
 
         <div className="project-cards third">
           <div className="text">
-            <h3>Pod request access landing page</h3>
+            <h1>Pod request access landing page</h1>
             <p>
               Early access landing page that includes custom form validation.
             </p>

@@ -1,35 +1,30 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Wave from '../images/wave3.png'
 import "../App.css";
 
 export default function Header() {
   return (
     <div>
-      <header>
+      <header className="bg-blur">
         <nav>
-          <h2>Samuel C. Glantz</h2>
+          <h2 className="text-gradient">Samuel C. Glantz</h2>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <a href="#skills">Skills</a>
             </li>
             <li>
-              <Link to="/skills">Skills</Link>
+              <a href="#projects">Projects</a>
             </li>
             <li>
-              <Link to="/projects">Projects</Link>
-            </li>
-            <li>
-              <Link to="/contact">Contact</Link>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </nav>
 
-        <div className="wavy">
+        <div className="wavy ">
           <div className="heading">
-            <h1>CRAFTING THE DIGITAL WORLD</h1>
-            <h3>Web Development and Design</h3>
-            <button className="button">Know More!</button>
+            <h1 className="text-gradient">CRAFTING THE DIGITAL WORLD</h1>
+            <h3 className="text-glow ">Web Development and Design</h3>
           </div>
           <div className="wave">
             <img src={Wave} alt="Wave" />
@@ -37,7 +32,7 @@ export default function Header() {
         </div>
 
         <div className="btn">
-          <Link to="/">Go to top</Link>
+          <a href="#">Go to top</a>
         </div>
       </header>
     </div>
